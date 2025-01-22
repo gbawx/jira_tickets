@@ -1,50 +1,21 @@
-[
-  {
-    "id": 1,
-    "key": "PROJ-101",
-    "summary": "Corrigir bug no módulo de autenticação",
-    "description": "O módulo de autenticação apresenta falha ao verificar usuários com e-mails não confirmados.",
-    "status": "To Do",
-    "assignee": "João Silva",
-    "reporter": "Maria Oliveira",
-    "priority": "High",
-    "created_at": "2025-01-20T08:30:00Z",
-    "updated_at": "2025-01-20T09:00:00Z"
-  },
-  {
-    "id": 2,
-    "key": "PROJ-102",
-    "summary": "Implementar funcionalidade de exportação de relatórios",
-    "description": "Adicionar suporte para exportação de relatórios em PDF e Excel no módulo de relatórios.",
-    "status": "In Progress",
-    "assignee": "Ana Costa",
-    "reporter": "Carlos Martins",
-    "priority": "Medium",
-    "created_at": "2025-01-18T14:20:00Z",
-    "updated_at": "2025-01-20T11:45:00Z"
-  },
-  {
-    "id": 3,
-    "key": "PROJ-103",
-    "summary": "Atualizar documentação do projeto",
-    "description": "Revisar e atualizar a documentação técnica para refletir as novas funcionalidades.",
-    "status": "Review",
-    "assignee": "Pedro Lima",
-    "reporter": "Rafael Alves",
-    "priority": "Low",
-    "created_at": "2025-01-15T10:15:00Z",
-    "updated_at": "2025-01-19T16:30:00Z"
-  },
-  {
-    "id": 4,
-    "key": "PROJ-104",
-    "summary": "Realizar testes de performance",
-    "description": "Executar testes de carga e stress para garantir que o sistema suporte o aumento de tráfego.",
-    "status": "Done",
-    "assignee": "Renata Souza",
-    "reporter": "Fernanda Braga",
-    "priority": "Critical",
-    "created_at": "2025-01-10T09:00:00Z",
-    "updated_at": "2025-01-15T18:20:00Z"
+{
+  "cursos": [
+    { "id": 1, "titulo": "Entendendo o ES6", "url": "https://www.codeprestige.com.br/cursos/es6" },
+    { "id": 2, "titulo": "Produtividade Máxima com o VS Code", "url": "https://www.udemy.com/truques-vscode/" },
+    { "id": 3, "titulo": "Entendendo o ES7/ES8", "url": "https://www.codeprestige.com.br/cursos/es7-8" },
+    { "id": 4, "titulo": "React 16 Definitivo", "url": "https://www.udemy.com/react-16/" }
+  ],
+  "alunos": [
+    { "id": 1, "nome": "Marcela da Silva", "curso": 1 },
+    { "id": 2, "nome": "José Luiz Felipe", "curso": 2 },
+    { "id": 3, "nome": "Paulo Rogério", "curso": 3 },
+    { "id": 4, "nome": "Felipe da Cunha", "curso": 1 },
+    { "id": 5, "nome": "Luiza Cardoso Pereira", "curso": 1 }
+  ],
+  "empresa": {
+    "nome": "Code Prestige"
+    "nome": "Jose Mercado"
+    "nome": "Maria Compras"
+    "nome": "Marquinhos Sapateiros"
   }
-]
+}
